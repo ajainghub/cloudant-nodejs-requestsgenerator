@@ -19,3 +19,10 @@ For example:
 
 Above will add 1000 docs to the database that is configured in creds1 (section in the script). It will not log the response time.
 If response time needs to be measured the number of requests per call must be 1. Script will automatically set to 1 if logRT is passed as argument, i.e., response time is to be measured
+
+
+run_cmd.sh
+
+This script is a generic script that executes configured command(s) at specified interval and logs output of the script to a log file. Sscript will run for a specified duration.
+
+Usage: ./run_cmd.sh.sh <Duration in minutes> <optional param 'bkgrnd' to run with nohup in background> 
