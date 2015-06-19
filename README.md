@@ -25,4 +25,4 @@ run_cmd.sh
 
 This script is a generic script that executes configured command(s) at specified interval and logs output of the script to a log file. Sscript will run for a specified duration.
 
-Usage: ./run_cmd.sh.sh <Duration in minutes> <optional param 'bkgrnd' to run with nohup in background> 
+Usage: ./run_cmd.sh.sh < Duration in minutes > < optional param 'bkgrnd' to run with nohup in background > 
