@@ -14,7 +14,7 @@
 // This is usually needed if script is used for performance testing. 
 // For general use you can use nologRT argument 
 //
-// Usage: node <thisscriptfilename>.js <action name, must be pre-configured inscript: addDocs | getDocs* | createDb ...etc> <credentials set to use, must be pre-configured in script: creds1 | creds2 | creds3> <number of requests> <response time logging: logRT | nologRT> <option param to show docs body: showresponse>
+// Usage: node <thisscriptfilename>.js <action name, must be pre-configured inscript: addDocs | getDocs | createDb ...etc> <credentials set to use, must be pre-configured in script: creds1 | creds2 | creds3> <number of requests> <response time logging: logRT | nologRT> <option param to show docs body: showresponse>
 //
 // Example: <thisscriptfilename>.js  putDocs creds1 1000 nologRT 
 // Above will add 1000 docs to the database that is configured in creds1 (section in the script). It will not log the response time.
