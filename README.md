@@ -21,6 +21,7 @@ Above will add 1000 docs to the database that is configured in creds1 (section i
 If response time needs to be measured the number of requests per call must be 1. Script will automatically set to 1 if logRT is passed as argument, i.e., response time is to be measured
 
 > node CL_request.js getDocsPrimaryIdx creds1 1 logRT
+
 Above command will make single read request and log response times
 
 run_cmd.sh
